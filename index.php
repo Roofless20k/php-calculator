@@ -31,6 +31,18 @@
         $num2 = filter_input(INPUT_POST, 'num2', FILTER_SANITIZE_NUMBER_FLOAT);
         $operator = htmlspecialchars($_POST['operator']);
 
+        // check if the input fields are empty
+        if (empty($num1) || empty($num2)) {
+            echo "Please fill in all the fields";
+            exit();
+        }
+
+        // check if the input values are numbers
+        if (!is_numeric($num1) || !is_numeric($num2)) {
+            echo "Please enter valid numbers";
+            exit();
+        }
+
         
     }
 
