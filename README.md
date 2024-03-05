@@ -13,7 +13,7 @@ Let's learn how to get the HTML form values into the PHP variables and how to ha
 
 
 
-## Lest learn some markdown while we are at it.
+## Let's learn some markdown while we are at it.
 
 ## Use # and a space for header 1
 ## Use ## and a space for header 2
